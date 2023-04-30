@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <navbar>
+            <img src="" alt="">
+        </navbar>
+        <div>
+        <div class="square one">
+            <h3 class="abc"> My Portfolio</h3>
+            <!-- <div class="styledimg"><img src="./Untitled-1.jpg"></div> -->
+        </div>
+        <div>
+            <ul>
+                    <button> <li><a href="#default">HOME</a></li></button>
+                    <button><li><a href="#About">ABOUT</a></li></button>
+                    <button><li><a href="#Work">WORK</a></li></button>
+                    <button><li><a href="#Resume">SERVICES</a></li></button>
+                    <button><li><a href="#Contact">SKILLS</a></li></button>
+                    <button><li><a href="#About">EDUCATION</a></li></button>
+                    <button><li><a href="#Work">EXPERIENCE</a></li></button>
+                    <button><li><a href="#Resume">BLOG</a></li></button>
+                    <button><li><a href="#Contact">CONTACT</a></li></button>
+            </ul>
+        </div>
+        </div>
+        <br>
+        <img src="./Gbenga.jpg" alt="Gbenga Olaleye Picture" width="300" height="300">
+        <h3 class="bbb">gbenga OLALEYE</h3>
+       <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque ipsam consequatur quam consectetur aliquam ratione, pariatur accusamus quaerat adipisci totam cumque? Reiciendis nostrum deserunt dolor. Amet suscipit explicabo eos quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos ratione temporibus doloribus vero, nisi odit laboriosam molestiae, dicta, deleniti repellat magnam eligendi nulla totam enim repellendus? Quod, dolore voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus fuga impedit officia possimus. Obcaecati rerum reprehenderit dignissimos corrupti temporibus. Vel, provident eveniet facilis dignissimos libero quaerat repudiandae dolor beatae animi?</h3>
+       
+       <navbar>
+       <section class="HOME"></section>
+        <section id="ABOUT"></section>
+        <section id="WORK"></section>
+        <section id="SERVICES"></section>
+        <section id="EDUCATION"></section>
+        <section id="EXPERIENCE"></section>
+        <section id="BLOG"></section>
+        <section id="CONTACT"></section>
+        </navbar>
+       
+        <section>
+            <video width="520" height="440" autoplay controls>
+                <source src="APIs for Beginners 2023 - How to use an API (Full Course _ Tutorial).mp4" type="video/mp4" />
+            </video>
+            </section>
+        
+            <p Additional information on my tuition center is available at ></p><a href="http://gomycode.co">www.gomycode.co</a></p>
+        </div>
+
+        <div>
+            <h2>Sign Up for Enquires on Other Courses Offered by GomyCode</h2>
+            <section id="About"></section>
+            <section id="Work"></section>
+            <section id="Resume"></section>
+            <section id="Contact"></section>
+            <form>
+                <label>Name</label>    
+                <input type="text">
+                <label for="">Surname</label>
+                <input type="text">
+                <label for="">Phone Number</label>
+                <input type="number">
+                <label for="">Location</label>
+                <select>
+                    <option value="">Lagos</option>
+                    <option value="">Abuja</option>
+                    <option value="">PortHartourt</option>
+                    <option value="">Kano</option>
+                </select>
+                <br>
+                <button>Please Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
